@@ -13,6 +13,7 @@ import { Pokemon, PokemonSchema } from './entities/pokemon.entity';
       },
     ]),
   ],
+  exports: [MongooseModule],
   controllers: [PokemonController],
   providers: [PokemonService],
 })
