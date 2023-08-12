@@ -20,7 +20,11 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Reload database with seed
+5. Rename ```env-template``` to ```.env```
+
+6. Fill the variables .env
+
+7. Reload database with seed
 
 ```
   localhost:3000/api/v2/seed
